@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "template-mod",
+  "id": "mineanim",
   "version": "${version}",
-  "name": "Template Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": ["Me!"],
+  "name": "mineanim",
+  "description": "A mod aiming to be used as a tool to create mathematical visualizations in minecraft.",
+  "authors": ["Enderhaunter5"],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": ""
   },
-  "license": "CC0-1.0",
-  "icon": "assets/template-mod/icon.png",
+  "license": "",
+  "icon": "",
   "environment": "*",
   "entrypoints": {
-    "main": ["enderh5.mineanim.TemplateMod"],
-    "fabric-datagen": ["enderh5.mineanim.TemplateModDataGenerator"]
+    "main": ["enderh5.mineanim.Mineanim"],
+    "fabric-datagen": ["enderh5.mineanim.MineanimDataGenerator"]
   },
-  "mixins": ["template-mod.mixins.json"],
+  "mixins": ["mineanim.mixins.json"],
   "depends": {
     "fabricloader": ">=0.18.4",
     "minecraft": "~1.21.11",
